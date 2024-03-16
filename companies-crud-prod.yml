@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/companies
+    url: jdbc:postgresql://db-companies:5432/companies
     username: postgres-prod
     password: Hajduhdodsfk2
     hikari:
