@@ -3,6 +3,7 @@ spring:
     url: jdbc:postgresql://db-companies:5431/companies
     username: postgres
     password: gibb
+    driver-class-name: org.postgresql.Driver
     hikari:
       connection-timeout: 20000
       maximum-pool-size: 5
